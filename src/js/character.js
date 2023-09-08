@@ -15,7 +15,7 @@ export default class Character {
     }
 
     this.health = 100;
-    this.level = 1
+    this.level = 1;
     this.attack = attack;
     this.defense = defense;
   }

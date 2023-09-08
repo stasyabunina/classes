@@ -12,3 +12,11 @@ test('testing character creation', () => {
     defense: 40,
   });
 });
+
+test('testing characters name', () => {
+  expect(() => new Character('0', 'Magician', 10, 40)).toThrow(new Error('Имя персонажа должно содержать только символы, быть не меньше 2 и не больше 10 символов!'));
+});
+
+test('testing characters type', () => {
+  expect(() => new Character('Don', 'Worker', 10, 40)).toThrow(new Error('Такой тип персонажа не существует'));
+});

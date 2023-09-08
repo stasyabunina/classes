@@ -12,4 +12,3 @@ test('testing magician creation', () => {
     defense: 40,
   });
 });
-

@@ -12,4 +12,3 @@ test('testing bowman creation', () => {
     defense: 25,
   });
 });
-
